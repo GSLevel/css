@@ -1,0 +1,10 @@
+.chatMsg span {
+    visibility: hidden;
+}
+
+.chatMsg span:after {
+    visibility: visible;
+    content: "shitter";
+}
+
+/* Made by Level#1720 */
