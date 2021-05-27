@@ -1,0 +1,17 @@
+{
+    "csses": [
+        {
+            "id": "css1",
+            "text": "(a bit animated) Dark mode Custom CSS",
+            "img": "https://cdn.discordapp.com/attachments/699663156011729023/752078791727382639/unknown.png",
+            "link": "https://cdn.discordapp.com/attachments/699663156011729023/752079727585394708/main_custom.css"
+        },
+
+        {
+            "id": "css2",
+            "text": "Level CSS",
+            "img": "https://cdn.discordapp.com/attachments/818303796244512789/838107960076140574/unknown.png",
+            "link": "https://cdn.discordapp.com/attachments/818303796244512789/838107959778869299/main_custom.css"
+        }
+    ]
+}

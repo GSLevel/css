@@ -1,7 +1,6 @@
 html, body {
     background-color: #000;
     color: #fff;
-    overflow: hidden;
 }
 
 * {
@@ -64,7 +63,7 @@ html, body {
     display: unset;
 }
 
-#home, #tutLink, #downLink1 {
+#home{
     background-color: #ff5e00;
     border: none;
     outline: none;
@@ -74,48 +73,19 @@ html, body {
     cursor: pointer;
 }
 
-#home:hover, #tutLink:hover, #downLink1:hover {
+#home:hover{
     background-color: #fff;
     color: #ff5e00;
 }
 
-#tutLink {
-    display: inherit;
-    position: relative;
-    left: 820px;
-    margin-bottom: 50px
+img {
+    width: 370px; 
+    height: 200px;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    border-radius: 10%;
 }
 
-#tut1 {
-    position: relative;
-    right: 300px
+img:hover {
+  transform: scale(1.1)
 }
-
-#css1 {
-    position: relative;
-    left: 500px;
-    top: -350px
-}
-
-#css1 h1 {
-    position: relative;
-    top: 30px;
-    right: -50px
-}
-
-#downLink1 {
-    position: relative;
-    left: -240px;
-    top: 50px
-}
-
-#css1 img {
-    position: relative;
-    left: 50px
-}
-
-#home {
-    bottom: 200px;
-    position: relative;
-}
-
